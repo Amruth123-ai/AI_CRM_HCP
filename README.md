@@ -70,11 +70,11 @@ Create a `.env` file inside the **`backend/`** directory with the following vari
 GROQ_API_KEY=your_api_key_here
 
 # PostgreSQL Database Configuration
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=oddo_db
-DB_USER=odoo
-DB_PASSWORD=odoo
+DB_HOST=DB_HOSTNAME
+DB_PORT=DB_POST
+DB_NAME=DB_NAME
+DB_USER=DB_USERNAME
+DB_PASSWORD=DB_PASSWORD
 
 # Application Configuration
 APP_ENV=development
